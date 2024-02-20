@@ -1,6 +1,6 @@
 def demo_function(service: str) -> str:
     service_dict = {
-            "hosting": "https://beget.com"
+            "hosting": "https://beget.com",
             "tickets": "https://aviasales.com"
     }
     if service in service_dict:
